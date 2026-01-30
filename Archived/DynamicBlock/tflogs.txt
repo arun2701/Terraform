@@ -1,0 +1,72 @@
+2025-12-21T20:06:38.802+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T20:06:38.803+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T20:06:38.803+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "plan"}
+2025-12-21T20:06:38.809+0530 [INFO]  CLI command args: []string{"plan"}
+2025-12-21T20:06:51.033+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T20:06:51.034+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T20:06:51.034+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "plan"}
+2025-12-21T20:06:51.045+0530 [INFO]  CLI command args: []string{"plan"}
+2025-12-21T20:06:51.066+0530 [INFO]  backend/local: starting Plan operation
+2025-12-21T20:06:51.128+0530 [INFO]  backend/local: plan calling Plan
+2025-12-21T20:06:51.138+0530 [INFO]  backend/local: plan operation completed
+2025-12-21T20:10:23.389+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T20:10:23.391+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T20:10:23.391+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "plan"}
+2025-12-21T20:10:23.400+0530 [INFO]  CLI command args: []string{"plan"}
+2025-12-21T20:10:23.409+0530 [INFO]  backend/local: starting Plan operation
+2025-12-21T20:10:37.407+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T20:10:37.408+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T20:10:37.408+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "init"}
+2025-12-21T20:10:37.421+0530 [INFO]  CLI command args: []string{"init"}
+2025-12-21T20:12:00.763+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T20:12:00.765+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T20:12:00.765+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "plan"}
+2025-12-21T20:12:00.775+0530 [INFO]  CLI command args: []string{"plan"}
+2025-12-21T20:12:02.868+0530 [INFO]  backend/local: starting Plan operation
+2025-12-21T20:12:02.899+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T20:12:03.518+0530 [INFO]  provider.terraform-provider-aws_v6.27.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T20:12:03.513+0530"
+2025-12-21T20:12:05.971+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0/windows_amd64/terraform-provider-aws_v6.27.0_x5.exe id=28700
+2025-12-21T20:12:06.002+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T20:12:06.377+0530 [INFO]  provider.terraform-provider-aws_v6.27.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T20:12:06.376+0530"
+2025-12-21T20:12:06.448+0530 [ERROR] vertex "aws_vpc_security_group_ingress_rule.inbound_dynamic_rules" error: Missing required argument
+2025-12-21T20:12:06.498+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0/windows_amd64/terraform-provider-aws_v6.27.0_x5.exe id=31164
+2025-12-21T20:14:09.207+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T20:14:09.207+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T20:14:09.207+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "plan"}
+2025-12-21T20:14:09.207+0530 [INFO]  CLI command args: []string{"plan"}
+2025-12-21T20:14:28.449+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T20:14:28.450+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T20:14:28.450+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "plan"}
+2025-12-21T20:14:28.459+0530 [INFO]  CLI command args: []string{"plan"}
+2025-12-21T20:14:30.773+0530 [INFO]  backend/local: starting Plan operation
+2025-12-21T20:14:30.816+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T20:14:32.339+0530 [INFO]  provider.terraform-provider-aws_v6.27.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T20:14:32.333+0530"
+2025-12-21T20:14:35.227+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0/windows_amd64/terraform-provider-aws_v6.27.0_x5.exe id=31988
+2025-12-21T20:14:35.257+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T20:14:35.721+0530 [INFO]  provider.terraform-provider-aws_v6.27.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T20:14:35.720+0530"
+2025-12-21T20:14:35.798+0530 [ERROR] vertex "aws_vpc_security_group_ingress_rule.inbound_dynamic_rules" error: Unsupported block type
+2025-12-21T20:14:35.860+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0/windows_amd64/terraform-provider-aws_v6.27.0_x5.exe id=25652
+2025-12-21T20:14:55.286+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T20:14:55.287+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T20:14:55.287+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "plan"}
+2025-12-21T20:14:55.296+0530 [INFO]  CLI command args: []string{"plan"}
+2025-12-21T20:14:57.431+0530 [INFO]  backend/local: starting Plan operation
+2025-12-21T20:14:57.456+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T20:14:58.038+0530 [INFO]  provider.terraform-provider-aws_v6.27.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T20:14:58.027+0530"
+2025-12-21T20:15:00.456+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0/windows_amd64/terraform-provider-aws_v6.27.0_x5.exe id=2388
+2025-12-21T20:15:00.482+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T20:15:00.828+0530 [INFO]  provider.terraform-provider-aws_v6.27.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T20:15:00.827+0530"
+2025-12-21T20:15:00.897+0530 [ERROR] vertex "aws_vpc_security_group_ingress_rule.inbound_dynamic_rules" error: Unsupported block type
+2025-12-21T20:15:00.947+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0/windows_amd64/terraform-provider-aws_v6.27.0_x5.exe id=23332
+2025-12-21T20:15:54.542+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T20:15:54.544+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T20:15:54.544+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "plan"}
+2025-12-21T20:15:54.556+0530 [INFO]  CLI command args: []string{"plan"}
+2025-12-21T20:15:56.765+0530 [INFO]  backend/local: starting Plan operation
+2025-12-21T20:15:56.791+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T20:15:57.801+0530 [INFO]  provider.terraform-provider-aws_v6.27.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T20:15:57.796+0530"
+2025-12-21T20:16:01.059+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0/windows_amd64/terraform-provider-aws_v6.27.0_x5.exe id=27060
+2025-12-21T20:16:01.089+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T20:16:01.483+0530 [INFO]  provider.terraform-provider-aws_v6.27.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T20:16:01.482+0530"
+2025-12-21T20:16:01.560+0530 [ERROR] vertex "aws_vpc_security_group_ingress_rule.inbound_dynamic_rules" error: Unsupported block type
+2025-12-21T20:16:01.621+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.27.0/windows_amd64/terraform-provider-aws_v6.27.0_x5.exe id=31676

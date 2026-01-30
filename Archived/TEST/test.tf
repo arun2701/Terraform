@@ -1,0 +1,3 @@
+variable "myvar" {
+  type = number
+}

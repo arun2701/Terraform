@@ -1,0 +1,48 @@
+2025-12-21T14:30:11.945+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T14:30:11.945+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T14:30:11.945+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "plan"}
+2025-12-21T14:30:11.965+0530 [INFO]  CLI command args: []string{"plan"}
+2025-12-21T14:30:17.189+0530 [INFO]  backend/local: starting Plan operation
+2025-12-21T14:30:17.251+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T14:30:18.511+0530 [INFO]  provider.terraform-provider-aws_v6.26.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T14:30:18.501+0530"
+2025-12-21T14:30:27.742+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.26.0/windows_amd64/terraform-provider-aws_v6.26.0_x5.exe id=31840
+2025-12-21T14:30:27.799+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T14:30:28.621+0530 [INFO]  provider.terraform-provider-aws_v6.26.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T14:30:28.618+0530"
+2025-12-21T14:30:29.844+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.26.0/windows_amd64/terraform-provider-aws_v6.26.0_x5.exe id=29852
+2025-12-21T14:30:29.846+0530 [INFO]  backend/local: plan calling Plan
+2025-12-21T14:30:29.863+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T14:30:31.680+0530 [INFO]  provider.terraform-provider-aws_v6.26.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T14:30:31.677+0530"
+2025-12-21T14:30:32.972+0530 [INFO]  provider.terraform-provider-aws_v6.26.0_x5.exe: Retrieved credentials: tf_aws.credentials_source="SharedConfigCredentials: C:\Users\arunp\.aws\credentials" tf_rpc=ConfigureProvider tf_mux_provider="*schema.GRPCProviderServer" tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=e22fc3de-3757-0eac-3875-6c42ef769b19 @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base timestamp="2025-12-21T14:30:32.971+0530"
+2025-12-21T14:30:35.505+0530 [INFO]  provider.terraform-provider-aws_v6.26.0_x5.exe: Retrieved caller identity from STS: @module=aws.aws-base tf_mux_provider="*schema.GRPCProviderServer" tf_provider_addr=registry.terraform.io/hashicorp/aws @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 tf_req_id=e22fc3de-3757-0eac-3875-6c42ef769b19 tf_rpc=ConfigureProvider timestamp="2025-12-21T14:30:35.505+0530"
+2025-12-21T14:30:37.271+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.26.0/windows_amd64/terraform-provider-aws_v6.26.0_x5.exe id=19212
+2025-12-21T14:30:37.279+0530 [INFO]  backend/local: plan operation completed
+2025-12-21T14:35:51.206+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T14:35:51.211+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T14:35:51.211+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "plan"}
+2025-12-21T14:35:51.223+0530 [INFO]  CLI command args: []string{"plan"}
+2025-12-21T14:35:54.927+0530 [INFO]  backend/local: starting Plan operation
+2025-12-21T14:35:54.982+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T14:35:56.433+0530 [INFO]  provider.terraform-provider-aws_v6.26.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T14:35:56.409+0530"
+2025-12-21T14:36:00.918+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.26.0/windows_amd64/terraform-provider-aws_v6.26.0_x5.exe id=21732
+2025-12-21T14:36:00.977+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T14:36:01.647+0530 [INFO]  provider.terraform-provider-aws_v6.26.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T14:36:01.644+0530"
+2025-12-21T14:36:02.249+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.26.0/windows_amd64/terraform-provider-aws_v6.26.0_x5.exe id=12340
+2025-12-21T14:36:02.251+0530 [INFO]  backend/local: plan calling Plan
+2025-12-21T14:36:02.264+0530 [INFO]  provider: configuring client automatic mTLS
+2025-12-21T14:36:02.837+0530 [INFO]  provider.terraform-provider-aws_v6.26.0_x5.exe: configuring server automatic mTLS: timestamp="2025-12-21T14:36:02.835+0530"
+2025-12-21T14:36:03.160+0530 [INFO]  provider.terraform-provider-aws_v6.26.0_x5.exe: Retrieved credentials: tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=7a81cc9d-2001-2cc4-00dd-154d5bcb72ef @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 @module=aws.aws-base tf_aws.credentials_source="SharedConfigCredentials: C:\Users\arunp\.aws\credentials" tf_mux_provider="*schema.GRPCProviderServer" tf_rpc=ConfigureProvider timestamp="2025-12-21T14:36:03.159+0530"
+2025-12-21T14:36:04.199+0530 [INFO]  provider.terraform-provider-aws_v6.26.0_x5.exe: Retrieved caller identity from STS: @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.69/logging/tf_logger.go:39 tf_mux_provider="*schema.GRPCProviderServer" tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=7a81cc9d-2001-2cc4-00dd-154d5bcb72ef @module=aws.aws-base tf_rpc=ConfigureProvider timestamp="2025-12-21T14:36:04.199+0530"
+2025-12-21T14:36:05.851+0530 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/6.26.0/windows_amd64/terraform-provider-aws_v6.26.0_x5.exe id=19568
+2025-12-21T14:36:05.859+0530 [INFO]  backend/local: plan operation completed
+2025-12-21T18:13:54.373+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T18:13:54.375+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T18:13:54.375+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "fmt"}
+2025-12-21T18:13:54.387+0530 [INFO]  CLI command args: []string{"fmt"}
+2025-12-21T18:14:26.075+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T18:14:26.076+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T18:14:26.077+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "fmt"}
+2025-12-21T18:14:26.085+0530 [INFO]  CLI command args: []string{"fmt"}
+2025-12-21T18:14:34.118+0530 [INFO]  Terraform version: 1.13.5
+2025-12-21T18:14:34.119+0530 [INFO]  Go runtime version: go1.24.5
+2025-12-21T18:14:34.119+0530 [INFO]  CLI args: []string{"C:\\Binaries\\Terraform\\terraform.exe", "fmt"}
+2025-12-21T18:14:34.128+0530 [INFO]  CLI command args: []string{"fmt"}
